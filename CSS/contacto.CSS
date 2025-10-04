@@ -1,0 +1,113 @@
+.fila{
+    display: flex;
+    gap: 20px;
+}
+
+.fila .campo{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+form textarea,#nombre,#correo,#artista,#fecha,#genero{
+    background-color: #f0efef6f;
+    border: 2px solid #ffbb0046;
+    color: #fff;
+}
+
+button{
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: 'MetalMania', sans-serif;
+    border: 2px solid #555;
+    background-color: rgba(27, 2, 19, 0.87);
+    color: crimson;
+    font-size: large;
+}
+
+button:hover{
+     color: rgb(116, 163, 22);
+     background-color: #001f3f;
+     border: 2px solid rgb(116, 163, 22)
+}
+
+input::placeholder,
+textarea::placeholder{
+    color: #f3f7f3;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.info li::before{
+    content: "🎸";
+    margin-right: 8px;
+}
+
+.redes{
+    display: flex;
+    gap: 20px;
+}
+
+aside a{
+    color: crimson;
+    text-decoration: none;
+}
+
+aside a:hover{
+    color: rgb(116, 163, 22);
+}
+
+.Facebook:before{
+    content: "";
+    display: inline-block;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    background: url('../ICONOS/facebook.png');
+    background-size: contain;
+}
+
+.Instagram::before{
+    content: "";
+    display: inline-block;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    background: url('../ICONOS/instagram.png');
+    background-size: contain;
+}
+
+.X::before{
+    content: "";
+    display: inline-block;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    background: url('../ICONOS/x.png');
+    background-size: contain;
+}
+
+.Telegram::before{
+    content: "";
+    display: inline-block;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    background: url('../ICONOS/telegrama.png');
+    background-size: contain;
+}
+
+.Reddit::before{
+    content: "";
+    display: inline-block;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    background: url('../ICONOS/reddit.png');
+    background-size: contain;
+}

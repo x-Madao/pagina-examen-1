@@ -1,12 +1,13 @@
 @font-face {
     font-family: 'MetalMania';
-    src: url('FUENTE/Metal_Mania/MetalMania-Regular.ttf') format('truetype');
+    src: url('../FUENTE/Metal_Mania/MetalMania-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal ;
 }
+
 @font-face {
     font-family: 'NewRocker';
-    src: url('FUENTE/New_Rocker/NewRocker-Regular.ttf') format('truetype');
+    src: url('../FUENTE/New_Rocker/NewRocker-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal ;
 }
@@ -17,6 +18,7 @@ body{
     background-color: #121212;
     color: #f0f0f0;
 }
+
 .header-gif{
     position: absolute;
     width: 100%;
@@ -77,98 +79,8 @@ section{
 section h2{
     font-family: 'MetalMania',sans-serif;
     font-size: 2.5rem;
-    color: #f1faee;
     margin-bottom: 20px;
 }
-
-.fila{
-    display: flex;
-    gap: 20px;
-}
-
-.fila .campo{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    
-
-}
-ul{
-    list-style-type: none;
-    
-}
-
-.info li::before{
-    content: "🎸";
-    margin-right: 8px;
-}
-
-.redes{
-    display: flex;
-    gap: 20px;
-}
-
-aside a{
-    color: crimson;
-    text-decoration: none;
-}
-
-aside a:hover{
-    color: rgb(116, 163, 22);
-    
-}
-
-.Facebook::before{
-    content: "";
-    display: inline-block;
-    margin-right: 8px;
-    width: 20px;
-    height: 20px;
-    background: url('ICONOS/facebook.png');
-    background-size: contain;
-}
-
-.Instagram::before{
-    content: "";
-    display: inline-block;
-    margin-right: 8px;
-    width: 20px;
-    height: 20px;
-    background: url('ICONOS/instagram.png');
-    background-size: contain;
-}
-.X::before{
-    content: "";
-    display: inline-block;
-    margin-right: 8px;
-    width: 20px;
-    height: 20px;
-    background: url('ICONOS/x.png');
-    background-size: contain;
-}
-.Telegram::before{
-    content: "";
-    display: inline-block;
-    margin-right: 8px;
-    width: 20px;
-    height: 20px;
-    background: url('ICONOS/telegrama.png');
-    background-size: contain;
-}
-
-.Reddit::before{
-    content: "";
-    display: inline-block;
-    margin-right: 8px;
-    width: 20px;
-    height: 20px;
-    background: url('ICONOS/reddit.png');
-    background-size: contain;
-}
-
-
-
-
 
 footer{
     background-color: #121212;
