@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contacto.CSS">
+        <title>Infernal Nights</title>
+    </head>
+    <body>
+        <header>
+            <img src="fire.gif" alt="Fuego animado" class="header-gif">
+            <h1>Contacto</h1>
+            <nav> <!--enlaces a otras paginas-->
+                <ul><li><a href="index.html">Inicio</a></li>
+                    <li><a href="programacion.html">Programacion</a></li>
+                </ul>
+            </nav>
+            <audio id="fondo" src="#" controls loop ></audio>
+        </header>
+        <main>
+            <section>
+                <h2>Formulario de contacto</h2>
+                <form action="#" method="get">
+
+                <div class="fila">
+                <div class="campo">
+                
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Manolo Gonzales" required>
+                </div>
+
+                <div class="campo">
+
+                <label for="correo">E-mail:</label>
+                <input type="email" id="correo" name="correo" placeholder="Ej: Manolo_57@gmail.com" required>
+                </div>
+
+                <div class="campo">
+
+                <label for="artista">Artista/Banda favorita:</label>
+                <input type="text" id="artista" name="artista" placeholder="Ej:Judas Priest">
+                </div>
+                <div class="campo">
+
+                <label for="fecha">Fecha de asistencia:</label>
+                <input type="date" id="fecha" name="fecha" min="2025-10-03" max="2025-12-31">
+                </div>
+                </div>
+               
+              
+                
+                
+                <p>Tipo de entrada:</p>
+                
+                <label for="general">General</label>
+                <input type="radio" id="general" name="entrada" required>
+
+                
+                <label for="VIP">VIP</label>
+                <input type="radio" id="VIP" name="entrada">
+                
+
+                <label for="campo">Campo delantero</label>
+                <input type="radio" id="campo" name="entrada">
+                
+               
+
+                <p>Intereses:</p>
+                
+                <label for="camping">Camping</label>
+                <input type="checkbox" id="camping" name="intereses" value="camping">
+
+                <label for="merch">Merchandising</label>
+                <input type="checkbox" id="merch" name="intereses" value="merch">
+
+                <label for="meet">Meet & Greet</label>
+                <input type="checkbox" id="meet" name="intereses" value="meet">
+                
+
+                <p>Generos Musicales Favoritos:</p>
+                
+                <input list="generos" name="genero" id="genero">
+
+                <datalist id="generos">
+                    <option value="Heavy Metal"></option>
+                    <option value="Death Metal"></option>
+                    <option value="Metalcore"></option>
+                    <option value="HardRock"></option>
+                    <option value="Power Metal"></option>
+                    <option value="Black Metal"></option>
+                </datalist>
+
+                <p>Comentarios</p>
+
+                <textarea name="comentario" id="comentario" rows="10" cols="100" placeholder="Comente aqui..."></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <section>
+                <h2>informacion de contacto</h2>
+                <ul class="info">
+                    <li>Direccion: Freezing Moon 666</li>
+                    <li>Telefono: 4578-8547</li>
+                    <li>Horarios de atencion: Lunes a Viernes: 10:00hs - 20:00hs, Sabados y Domingos: 14:00hs - 18:00hs</li>
+                </ul>
+            </section>
+            <aside>
+                <h3>Redes sociales:</h3>
+                <ul class="redes">
+                    <li class="Facebook"><a href="#">Facebook</a></li>
+                    <li class="Instagram"><a href="#">Instagram</a></li>
+                    <li class="X"><a href="#">X</a></li>
+                    <li class="Telegram"><a href="#">Telegram</a></li>
+                    <li class="Reddit"><a href="#">Reddit</a></li>
+                </ul>
+            </aside>
+
+               
+
+                
+            </section>
+
+        </main>
+
+
+        <footer>
+            <img src="blue.gif" alt="fuego azul" class="blue">
+            <p>Autor: Nicolas Cao</p></footer>
+    </body>
+</html>

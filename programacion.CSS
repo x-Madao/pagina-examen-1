@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'MetalMania';
+    src: url('FUENTE/Metal_Mania/MetalMania-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal ;
+}
+@font-face {
+    font-family: 'NewRocker';
+    src: url('FUENTE/New_Rocker/NewRocker-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal ;
+}
+
+body{
+    font-family: 'MetalMania',sans-serif;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+.header-gif{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+header{
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+header audio{
+    position: absolute;
+    display: block;
+    margin: 0;
+    top: 30px;
+    right: 20px;
+    width: 130px;
+}
+
+header h1{
+    font-size: 5rem;
+    color: #c8313e
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #f0f0f0fb;
+    font-weight: bold;
+    font-size:2rem;
+}
+
+nav a:hover{
+    color: #ff2f40;
+}
+section{
+    font-family: 'NewRocker',sans-serif;
+    font-size: 1.5rem;
+    padding: 0px 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+section h2{
+    font-family: 'MetalMania',sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.artistas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.artista{
+    text-align: center;
+    width: 250px;
+    background-color: #176a4775;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.899);
+}
+.artista ul{
+    list-style:none;
+    padding-left: 0%;
+}
+
+h3{
+    margin: 0 auto 10px;
+    text-decoration:underline;
+    text-decoration-color: #d96e30c3;
+    text-decoration-thickness:  5px;
+    
+}
+
+
+.artista > img{
+    width: 200px;
+    height: 150px;
+    object-fit:contain;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 10px;
+    transition: transform 0.3s,box-shadow 0.3s;
+}
+section div img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table caption{
+    font-size: 2.5rem;
+    text-align: justify;
+    padding: 0px 20px;
+    margin: 0 auto 20px;
+    
+}
+
+th,td{
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+th{
+    background-color: #6a331777;
+    letter-spacing: 2px;
+    font-size:x-large;
+}
+
+td{
+    font-family: 'NewRocker', sans-serif;
+}
+
+
+tr:nth-child(even){
+    background-color: #222;
+}
+
+tr:nth-child(odd){
+    background-color: #333;
+}
+
+.Informacion{
+    padding: 10px;
+}
+.Informacion h2{
+    text-align: center;
+}
+
+.Informacion .cosas{
+     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Informacion .cosas div{
+    background: #222;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 200px;
+    
+}
+
+.Informacion ul,ol{
+    list-style-type: none;
+}
+
+.Informacion ul li::before{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    background: url('ICONOS/calavera-y-huesos.png');
+    background-size: contain;
+}
+
+.r-uno::before{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    background: url('ICONOS/uno.png');
+    background-size: contain;
+}
+
+.r-dos::before{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    background: url('ICONOS/dos.png');
+    background-size: contain;
+}
+
+.r-tres::before{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    background: url('ICONOS/tres.png');
+    background-size: contain;
+}
+
+footer{
+    background-color: #121212;
+    position: relative;
+    height: 80px;
+    gap: 10px;
+}
+
+footer p {
+    font-family: 'NewRocker', sans-serif;
+    color: #000;
+    position: absolute;
+    right: 20px;
+    font-size: 2rem;
+}
+
+.blue{
+    position:absolute;
+    width: 100%;
+    height: 65%;
+    top: 40%;
+    object-fit:cover;
+}

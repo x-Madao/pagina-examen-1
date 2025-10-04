@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'MetalMania';
+    src: url('FUENTE/Metal_Mania/MetalMania-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal ;
+}
+@font-face {
+    font-family: 'NewRocker';
+    src: url('FUENTE/New_Rocker/NewRocker-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal ;
+}
+
+body{
+    font-family: 'MetalMania',sans-serif;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #f0f0f0;
+}
+.header-gif{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+header{
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+header audio{
+    position: absolute;
+    display: block;
+    margin: 0;
+    top: 30px;
+    right: 20px;
+    width: 130px;
+}
+
+header h1{
+    font-size: 5rem;
+    color: #c8313e
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #f0f0f0fb;
+    font-weight: bold;
+    font-size:2rem;
+}
+
+nav a:hover{
+    color: #ff2f40;
+}
+
+section{
+    font-family: 'NewRocker',sans-serif;
+    font-size: 1.5rem;
+    padding: 0px 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+section h2{
+    font-family: 'MetalMania',sans-serif;
+    font-size: 2.5rem;
+    color: #f1faee;
+    margin-bottom: 20px;
+}
+
+.fila{
+    display: flex;
+    gap: 20px;
+}
+
+.fila .campo{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+
+}
+ul{
+    list-style-type: none;
+    
+}
+
+.info li::before{
+    content: "🎸";
+    margin-right: 8px;
+}
+
+.redes{
+    display: flex;
+    gap: 20px;
+}
+
+aside a{
+    color: crimson;
+    text-decoration: none;
+}
+
+aside a:hover{
+    color: rgb(116, 163, 22);
+    
+}
+
+.Facebook::before{
+    content: "";
+    display: inline-block;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    background: url('ICONOS/facebook.png');
+    background-size: contain;
+}
+
+.Instagram::before{
+    content: "";
+    display: inline-block;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    background: url('ICONOS/instagram.png');
+    background-size: contain;
+}
+.X::before{
+    content: "";
+    display: inline-block;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    background: url('ICONOS/x.png');
+    background-size: contain;
+}
+.Telegram::before{
+    content: "";
+    display: inline-block;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    background: url('ICONOS/telegrama.png');
+    background-size: contain;
+}
+
+.Reddit::before{
+    content: "";
+    display: inline-block;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    background: url('ICONOS/reddit.png');
+    background-size: contain;
+}
+
+
+
+
+
+footer{
+    background-color: #121212;
+    position: relative;
+    height: 80px;
+    gap: 10px;
+}
+
+footer p {
+    font-family: 'NewRocker', sans-serif;
+    color: #000;
+    position: absolute;
+    right: 20px;
+    font-size: 2rem;
+}
+
+.blue{
+    position:absolute;
+    width: 100%;
+    height: 65%;
+    top: 40%;
+    object-fit:cover;
+}
